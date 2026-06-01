@@ -1,5 +1,14 @@
 
+The il2cpp resolver I made originally made to mod counter critical and became a full time project :D
 
+
+
+works well when paired with unity wrappers
+
+
+
+contubition
+sneakyevil base api
 
 
 
