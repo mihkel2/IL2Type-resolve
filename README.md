@@ -11,7 +11,7 @@ contubition
 sneakyevil base api
 
 
-[](IMG_0939.gif)
+![](IMG_0939.gif)
 
 # Basic coduementation
 //find objects ofalltype
