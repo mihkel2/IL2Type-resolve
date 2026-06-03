@@ -4,6 +4,10 @@ A lightweight IL2CPP resolver orginal made for modding Counter Critical now a fu
 
 Works well when paired with Unity wrappers.
 
+# video showcase / what ive done before
+![](IMG_0939.gif)
+
+
 Contribution / Credits
 
 * Sneakyevil — Base API
