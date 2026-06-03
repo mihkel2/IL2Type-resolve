@@ -13,8 +13,13 @@ sneakyevil base api
 
 ![](IMG_0939.gif)
 
-# Basic coduementation
-//find objects ofalltype
+# Basic duementation
+
+Il2cppClass* g_class = Nullptr;
+Or 
+Il2cppClass* Class = Resolver::GetClass("","",n"")
+
+
 std::vector<void*> name = Resolver::FindObjectsOfType<void*>("");
 
   
