@@ -13,7 +13,7 @@ See UnityResolve in action:
 
 Credits
 
-* Sneakyevil — Base API
+* Sneakyevil — Base API :)
 
 ⸻
 
