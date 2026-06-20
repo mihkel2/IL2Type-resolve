@@ -43,3 +43,64 @@ Mod Example
 Il2CppClass* playerClass =
     Resolver::GetClass("", "Player", "PlayerData");
 Resolver::SetFieldValue<int>(playerInstance, playerClass, "coins", 9999);
+
+
+
+
+with the new introduction of Gameobjects,Bone and mesh resolving and audios ⚙️ 
+
+
+heres some examples
+
+
+
+Animation 
+
+
+
+Also have runtime animator contorllers 
+Animator_GetRuntimeAnimatorController()Il2cppobject,animator
+
+
+Animator_GetClioNames(il2cppobject* animtor)
+
+we alwo fan resolve compnents by children ill need to get more into this a different time its a little more complicated
+
+
+
+Rendering
+
+
+
+WorldToScreen(vector3,worldpos,Vector3&,screenpos,float matrix)
+
+
+
+
+
+
+component
+
+
+il2cppGameObject* smr Resolver::GameObject_GetComponentByName()
+
+Camera_GetMain()
+
+
+
+// GameObjects
+il2cppObject* PlayerGo = Resolver::GameObject_Find("") // find GO
+
+
+
+
+//transforms
+
+Transforms also come with the vector3 header so if your looking to get a players world pos youd call
+trans = Resolver::Transform_GetTransform(playergo)
+then resolving positions is nealry the same
+
+
+you also have the other not as useful stuff
+Transform_SetLocalScale(void transform, Vector,scale)
+Transform_GetParent(void* transform)
