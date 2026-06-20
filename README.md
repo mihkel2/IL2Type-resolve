@@ -1,6 +1,6 @@
-IL2Type-resolve
+UnityResolve
 
-A lightweight IL2CPP resolver orginal made for modding Counter Critical now a full project :D
+A lightweight Unity resolver orginal made for modding Counter Critical now a full project :D
 
 Works well when paired with Unity wrappers.
 
