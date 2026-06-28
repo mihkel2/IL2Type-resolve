@@ -208,6 +208,12 @@ Get Parent
 
 void* parent =
     Resolver::Transform_GetParent(
-        transform
-    );
+        transform);
+
+vector resolve:
+                Vector3 pos1 = Resolver::Transform_GetPosition(bone);
+                Vector3 pos2 = Resolver::Transform_GetPosition(parent);
+
+                Vector3 screenPos1, screenPos2;
+
 
